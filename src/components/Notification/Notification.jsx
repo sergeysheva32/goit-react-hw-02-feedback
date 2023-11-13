@@ -1,7 +1,9 @@
+import css from './Notification.module.css';
+
 export default function Notification({ message }) {
   return (
     <div>
-      <p>{message}</p>
+      <p className={css.text}>{message}</p>
     </div>
   );
 }
