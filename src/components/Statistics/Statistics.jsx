@@ -1,4 +1,4 @@
-import css from './Statistics.module.css';
+import css from "./Statistics.module.css";
 
 export default function Statistics({ good, neutral, bad, total, countPositiveFeedbackPercentage }) {
     return (
