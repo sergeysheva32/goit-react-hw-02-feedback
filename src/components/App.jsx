@@ -1,8 +1,8 @@
 import { Component } from 'react';
-import { FeedBackOptions } from './FeedbackOptions/FeedBackOptions';
-import { Statistics } from './Statistics/Statistics';
-import { Section } from './Section/Section';
-import { Notification } from './Notification/Notification';
+import FeedBackOptions from './FeedbackOptions/FeedBackOptions';
+import Statistics from './Statistics/Statistics';
+import Section from './Section/Section';
+import Notification from './Notification/Notification';
 import css from './App.module.css';
 
 export class App extends Component {
